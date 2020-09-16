@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # Install required packages
-sudo dnf install -y "wget" "openssl-static" "npm" "qt5-qtbase" "qt5-qtbase-devel" "gcc-c++" "cmake" "make" --best
+sudo dnf install -y "git" "wget" "openssl-static" "npm" "qt5-qtbase" "qt5-qtbase-devel" "qt5-qtmultimedia-devel" "qt5-qtscript-devel" "qscintilla-qt5-devel" "qt5-linguist" "gcc-c++" "cmake" "make" --best
 
 # Get Source
 cd ~/Downloads
